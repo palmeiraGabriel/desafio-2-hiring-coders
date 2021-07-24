@@ -1,0 +1,31 @@
+{
+    "produtos": [{
+            "id": 1,
+            "photo": "https://samsungbr.vtexassets.com/arquivos/ids/316928-800-auto?width=800&height=auto&aspect=true",
+            "name": "Galaxy A52 Branco",
+            "description": "Câmera de 64MP de resolução",
+            "price": 4000
+        },
+        {
+            "id": 2,
+            "photo": "https://samsungbr.vtexassets.com/arquivos/ids/319708-800-auto?width=800&height=auto&aspect=true",
+            "name": "Galaxy S21 5G Rosa",
+            "description": "A maior resolução em um celular",
+            "price": 5000
+        },
+        {
+            "id": 3,
+            "photo": "https://samsungbr.vtexassets.com/arquivos/ids/313234-800-auto?width=800&height=auto&aspect=true",
+            "name": "Galaxy Z Flip Mirror",
+            "description": "A tela cheia que se dobra",
+            "price": 8000
+        },
+        {
+            "id": 4,
+            "photo": "https://samsungbr.vtexassets.com/arquivos/ids/313689-800-auto?width=800&height=auto&aspect=true",
+            "name": "GGalaxy M21s",
+            "description": "Tela grande",
+            "price": 800
+        }
+    ]
+}

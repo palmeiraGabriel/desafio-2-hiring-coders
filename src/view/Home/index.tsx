@@ -4,7 +4,8 @@ import Cart from '../../assets/cart.png'
 
 import { Container } from './style';
 
-import api from '../../services/api';
+
+import * as api from "../../data/server.json" 
 
 interface IProduct{
   id: number;
@@ -14,21 +15,13 @@ interface IProduct{
   price: number;
 }
 
-interface Test {
-  cart: IProduct[]
-}
-
 const Home: React.FC = () => {
   const [ data, setData ] = useState<IProduct[]>([]);
   const [ cart, setCart ] = useState<IProduct[]>([]);
   
 
   useEffect(() =>{
-    api.get('').then(
-      response => {
-        setData(response.data)
-      }
-    )
+    setData(api.produtos)
   }, [])
 
   useEffect(() => {
